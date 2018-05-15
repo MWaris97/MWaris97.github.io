@@ -1,0 +1,57 @@
+
+body, html{
+	height: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+	margin-top: 36px;
+}
+
+.btn{
+	border-radius: 24px;
+	font-weight: 700;
+  	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; 
+  padding:  9px 22px;
+  }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+}
+
+.bg{
+	display: flex;
+	background-image: url(background.jpg);
+	height: 100%;
+	background-position: 50% 40%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.line{
+	max-width: 55px;
+    border-width: 3px;
+    border-color: #F05F44; 
+    margin-top: 163px;
+  	margin-bottom: 20px; 
+}
+
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
