@@ -21,6 +21,7 @@ body{
   background-color: #F05F44;
   border-color: #F05F44; 
   padding:  9px 22px;
+  outline: none;
   }
 
 .btn-primary:hover {
@@ -28,6 +29,7 @@ body{
   border-color: #ee4b08;
   cursor: pointer;
   transition: all 0.2s;
+  outline: none;
   margin-top: 5px;
 }
 

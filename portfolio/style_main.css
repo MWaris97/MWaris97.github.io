@@ -1,0 +1,64 @@
+.navbar{
+		width: 100%; 
+		background-color: #222222; 
+		position: fixed; 
+		top: 0; 
+		left: 0;
+	}
+
+	.container{
+		display: block;
+		padding: 0px 100px 0px 100px;
+	}
+
+	.container .links{
+		display: block;
+		position: relative;
+		float: left;
+		padding: 15px 15px;
+		text-decoration: none;
+		color: #d3d3d3;
+	}
+
+	.container .links:hover{
+		background-color: #555555;
+		color: white;
+	}
+
+	.logo_text{
+		display: block;
+		position: relative;
+		float: left; 
+		color: white;
+		text-decoration: none;
+		padding: 9px 30px 9px 15px;
+		font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+		font-weight: 'bold'; color: #d3d3d3;
+		font-size: 25px;
+	}
+
+	.logo_text:hover{
+		color: white;
+	}
+
+	.logo_img{
+		display: block;
+		position: relative;
+		float: left; 
+		width: 31px;
+		padding-right: 2px;
+	}
+
+	.contact{
+		display: block;
+		position: relative;
+		float: right;
+		padding: 15px 15px;
+		text-decoration: none;
+		color: #d3d3d3;
+	}
+
+	.container .contact:hover{
+		background-color: #555555;
+		color: white;
+	}
